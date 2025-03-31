@@ -15,6 +15,6 @@ router.post("/", saveBugReport);
 
 // Rutas para la creación de usuarios y login
 router.post("/users/login", loginUser); // Iniciar sesión
+router.get("/users", getUser);
 
 export default router;
-
